@@ -1,0 +1,31 @@
+# Robots.txt File for greamsw.ru
+# This file is used to control how search engine robots (crawlers) interact with your website.
+
+# Allow all robots to crawl the entire site
+User-agent: *
+Disallow:
+
+# Sitemap location
+Sitemap: https://envpolytech.ru/sitemap.xml
+
+# Disallow access to specific directories or files
+Disallow: /regist/a.php
+Disallow: /regist/sender.php
+Disallow: /regist/traker.php
+Disallow: /regist/sql.php
+Disallow: /regist/server.php
+Disallow: /regist/login.php
+Disallow: /regist/send.php
+Disallow: /panel/setting.php
+Disallow: /images/
+Disallow: /favicon/
+Disallow: /_next/
+Disallow: /js/
+Disallow: /php/
+Disallow: /css/
+
+# Delay crawler requests
+Crawl-delay: 2
+
+# URL parameters to ignore
+Disallow: /*.php?*
